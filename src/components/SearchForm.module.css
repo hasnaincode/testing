@@ -1,0 +1,287 @@
+.searchFlights {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.radio,
+.radio1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.radio1 {
+  left: 106px;
+}
+.flightType {
+  position: relative;
+  width: 216.53px;
+  height: 38px;
+  flex-shrink: 0;
+}
+.flightOptions,
+.formTitleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formTitleGroup {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-7xs);
+  gap: var(--gap-7xs);
+}
+.departureField {
+  align-self: stretch;
+  flex: 1;
+}
+.arrival {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+}
+.labelContainer {
+  background-color: var(--primary-contrast1);
+  height: 2px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatar,
+.op {
+  align-items: center;
+  justify-content: center;
+}
+.op {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  display: flex;
+}
+.avatar {
+  border-radius: var(--br-2xl);
+  background-color: var(--color-silver);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+}
+.chip1 {
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.typography {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-6xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-300);
+}
+.cancelIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.container {
+  border-radius: var(--br-md);
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.chip,
+.muiautocompletetag {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chip {
+  display: flex;
+  flex-direction: column;
+}
+.muiautocompletetag {
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-4xs);
+}
+.losAngelesLa {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.active {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--primary-contrast1);
+}
+.arrivalField,
+.input,
+.inputsRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  height: 56px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs);
+}
+.arrivalField,
+.inputsRow {
+  flex: 1;
+}
+.arrivalField {
+  align-self: stretch;
+  flex-direction: column;
+}
+.inputsRow {
+  flex-direction: row;
+  padding: var(--padding-7xs);
+  gap: var(--gap-3xs);
+}
+.button {
+  position: relative;
+  font-size: var(--components-button-large1-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large1);
+  color: var(--primary-contrast1);
+  text-align: center;
+  display: inline-block;
+  width: 146.98px;
+}
+.buttonGroup,
+.searchFlightsButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange);
+  border-radius: var(--br-3xs);
+  width: 164px;
+  height: 56px;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.buttonGroup {
+  padding: var(--padding-7xs);
+}
+.formInputsRow,
+.searchForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-200);
+}
+.searchForm {
+  border-radius: var(--br-xs);
+  background-color: var(--primary-contrast1);
+  flex-direction: column;
+  padding: var(--padding-md);
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large1);
+}
+@media screen and (max-width: 960px) {
+  .inputsRow {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroup {
+    width: 100%;
+    text-align: left;
+  }
+  .formInputsRow,
+  .searchForm {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .searchFlights {
+    width: 100%;
+    padding-bottom: var(--padding-4xs);
+    margin-bottom: 6px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eaeaea;
+    flex: unset;
+    align-self: stretch;
+  }
+  .flightType {
+    width: 100% !important;
+  }
+  .flightOptions {
+    width: 100%;
+  }
+  .formTitleGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .arrivalField,
+  .departureField {
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRow {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+  .searchForm {
+    margin-top: 20px;
+  }
+}
