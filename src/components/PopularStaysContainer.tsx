@@ -1,3 +1,4 @@
+
 import { FunctionComponent } from "react";
 import HotelCard1 from "./HotelCard1";
 import styles from "./PopularStaysContainer.module.css";

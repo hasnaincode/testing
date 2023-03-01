@@ -1,3 +1,4 @@
+
 import { FunctionComponent } from "react";
 import styles from "./RecentSearchesContainer.module.css";
 

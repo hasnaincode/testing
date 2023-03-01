@@ -1,3 +1,4 @@
+
 import { FunctionComponent, useMemo } from "react";
 import CSS, { Property } from "csstype";
 import styles from "./HotelCard1.module.css";

@@ -1,3 +1,4 @@
+
 import { FunctionComponent, useCallback } from "react";
 import Header from "../components/Header";
 import SearchSection from "../components/SearchSection";

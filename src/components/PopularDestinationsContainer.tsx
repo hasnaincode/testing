@@ -1,3 +1,4 @@
+
 import { FunctionComponent, useCallback } from "react";
 import DestinationCard from "./DestinationCard";
 import styles from "./PopularDestinationsContainer.module.css";
